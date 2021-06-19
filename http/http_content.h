@@ -6,7 +6,7 @@
 
 // QueryParams
 typedef hv::KeyValue    QueryParams;
-HV_EXPORT std::string dump_query_params(QueryParams& query_params);
+HV_EXPORT std::string dump_query_params(const QueryParams& query_params);
 HV_EXPORT int         parse_query_params(const char* query_string, QueryParams& query_params);
 
 // NOTE: WITHOUT_HTTP_CONTENT
