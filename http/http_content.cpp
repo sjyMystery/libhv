@@ -4,7 +4,7 @@
 
 #include <string.h>
 
-std::string dump_query_params(QueryParams& query_params) {
+std::string dump_query_params(const QueryParams& query_params) {
     std::string query_string;
     for (auto& pair : query_params) {
         if (query_string.size() != 0) {
